@@ -2,7 +2,6 @@ apiVersion: seed.ibm.com/v1
 kind: Function
 metadata:
   name: en2shakespeare
-  namespace: ${projectName}
 spec:
   packages:
   - name: ${projectName}
@@ -19,7 +18,6 @@ apiVersion: seed.ibm.com/v1
 kind: CloudService
 metadata:
   name: mytranslator
-  namespace: ${projectName}
 spec:
   service: language_translator
   plan: lite
@@ -28,7 +26,6 @@ apiVersion: seed.ibm.com/v1
 kind: Function
 metadata:
   name: watson-language
-  namespace: ${projectName}
 spec:
   packages:
   - bind:  /whisk.system/watson-translator
