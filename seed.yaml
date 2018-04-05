@@ -12,7 +12,7 @@ spec:
       parameters:
       - name: mysecret.ftApiKey
         type: string
-        value: 128
+        value: "128"
 
 ---
 apiVersion: seed.ibm.com/v1
