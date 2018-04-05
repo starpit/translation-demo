@@ -10,7 +10,7 @@ spec:
     - codeUri: https://rawgit.com/kerryspchang/translation-demo/master/lib/en2shakespeare.js
       runtime: "nodejs:6"
       parameters:
-      - name: seed.ftApiKey:
+      - name: mysecret.ftApiKey:
         type: string
         value: 128
 
