@@ -8,9 +8,9 @@ spec:
   - name: ${projectName}
     actions:
     - codeUri: https://rawgit.com/kerryspchang/translation-demo/master/lib/en2shakespeare.js
-      runtime: "nodejs:6"
+      runtime: nodejs:6
       parameters:
-      - name: mysecret.ftApiKey:
+      - name: mysecret.ftApiKey
         type: string
         value: 128
 
