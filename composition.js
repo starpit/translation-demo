@@ -1,5 +1,3 @@
-let {projectName} = require('./shellConfig.js');
-
 composer.try(
 	composer.sequence(
 		`/${projectName}/watson-language/languageId`,
