@@ -7,7 +7,7 @@ spec:
   packages:
   - name: ${projectName}
     actions:
-    - codeUri: https://rawgit.com/kerryspchang/shell-translation-demo/master/lib/en2shakespeare.js
+    - codeUri: https://rawgit.com/kerryspchang/translation-demo/master/lib/en2shakespeare.js
       runtime: "nodejs:6"
       parameters:
       - name: seed.ftApiKey:
