@@ -12,7 +12,7 @@ spec:
       - name: apiKey
         valueFrom:
           secretKeyRef:
-            name: mysecret
+            name: ${projectName}-secret
             key: ftApiKey  
 
 ---
