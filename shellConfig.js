@@ -4,10 +4,5 @@
 		"required": false,
 		"source": "http://funtranslations.com/api#shakespeare",
 		"input": [{"name": "ftApiKey", "label": "API Key"}]
-	},
-	"Watson Translations": {
-		"instructions": "Deploying this example will automatically create a IBM Watson Translation service under the free lite plan.",
-		"source": "https://www.ibm.com/watson/services/language-translator/"
 	}
-
 }
