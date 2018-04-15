@@ -4,7 +4,7 @@
 	"kind": "composition",
 	"choices": {
 		"Fun Translations": {
-			"instructions": "This example uses the Shakespeare API from Fun Translations. Enter the API Key below. If you do not enter a key, **the service rate limits usage** to 5 calls per day.",
+			"instructions": "This example uses the Shakespeare API from Fun Translations. If you do not enter a key, **the service rate limits usage** to 5 calls per day.",
 			"required": false,
 			"source": "http://funtranslations.com/api#shakespeare",
 			"registration": "http://funtranslations.com/register",
