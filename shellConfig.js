@@ -1,6 +1,6 @@
 {
 	"name": "Fun Translation",
-	"description": "This composition translates English utterances to Shakespeare-style English, and translates any other utterance to plain English. It uses the **Fun Translation** service for the former, and the **Watson Language Translation** service for the latter; the **Watson Language Identification** service helps us determine the uttered language.",
+	"description": "This composition translates English utterances to Shakespeare-style English, and translates any other utterance to plain English. It uses the **[Fun Translations](http://funtranslations.com/)** service for the former, and the **Watson Language Translation** service for the latter; the **Watson Language Identification** service helps us determine the uttered language.",
 	"kind": "composition",
 	"choices": {
 		"Fun Translations": {
