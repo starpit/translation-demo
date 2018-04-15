@@ -8,7 +8,7 @@
 			"required": false,
 			"source": "http://funtranslations.com/api#shakespeare",
 			"registration": "http://funtranslations.com/register",
-			"input": [{"name": "ftApiKey", "label": "API Key"}]
+			"input": [{"name": "ftApiKey", "label": "API Key", "required": false}]
 		}
 	}
 }
