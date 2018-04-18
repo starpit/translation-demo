@@ -44,4 +44,4 @@ spec:
     actions:
     - name: translation-demo
       runtime: app
-      codeUri: https://rawgit.com/kerryspchang/translation-demo/master/composition.js
+      codeUri: https://rawgit.com/starpit/translation-demo/master/composition.js
