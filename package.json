@@ -5,7 +5,7 @@
 	"api": {
           "$schema": "http://json-schema.org/draft-07/schema#",
           "required": [
-            "payload "
+            "payload"
           ],
           "type": "object",
           "properties": {
