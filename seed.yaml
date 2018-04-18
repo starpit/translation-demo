@@ -4,7 +4,7 @@ metadata:
   name: en2shakespeare
 spec:
   packages:
-  - name: ${projectName}
+  - name: lib
     actions:
     - codeUri: https://rawgit.com/kerryspchang/translation-demo/master/lib/en2shakespeare.js
       runtime: nodejs:6
