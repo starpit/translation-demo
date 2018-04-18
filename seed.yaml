@@ -32,3 +32,16 @@ spec:
   packages:
   - bind:  /whisk.system/watson-translator
     service: mytranslator
+
+---
+apiVersion: seed.ibm.com/v1
+kind: Function
+metadata:
+  name: main
+spec:
+  packages:
+  - name: default
+    actions:
+    - name: translation-demo
+      runtime: app
+      codeUri: https://rawgit.com/kerryspchang/translation-demo/master/composition.js
