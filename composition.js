@@ -9,7 +9,7 @@ composer.try(
 			),
 			composer.sequence(
 				p => ({text: p.payload}),
-				'translation-demo/en2shakespeare'
+				'lib/en2shakespeare'
 			)			
 		)
 	),
