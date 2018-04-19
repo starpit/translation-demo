@@ -42,6 +42,6 @@ spec:
   packages:
   - name: default
     actions:
-    - name: main
+    - name: translation-demo
       runtime: app
       codeUri: https://rawgit.com/starpit/translation-demo/master/composition.js
