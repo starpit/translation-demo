@@ -12,7 +12,7 @@
             "payload": {
               "type": "string",
               "default": "bonjour",
-              "description": "Provide a string of text to translate"
+              "description": "The payload parameter is a string of text to translate"
             }
           }
 	},
