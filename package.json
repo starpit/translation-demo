@@ -14,6 +14,12 @@
               "default": "bonjour",
               "description": "The payload parameter is a string of text to translate"
             }
+	  },
+          "responses": {
+            "payload": {
+              "type": "string",
+              "description": "The translated text"
+            }
           }
 	},
 	"choices": {
