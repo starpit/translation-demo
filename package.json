@@ -1,6 +1,6 @@
 {
 	"name": "Fun Translation",
-	"description": "This module translates English to Shakespeare-style English, and translates any other utterance to plain English. It uses **[Fun Translations](http://funtranslations.com/)** for the former, and the **Watson Language Translation** service for the latter; the **Watson Language Identification** service determines the uttered language.",
+	"description": "This module translates English to Shakespeare-style English, and translates any other utterance to plain English. It uses **[Fun Translations](http://funtranslations.com/)** for the former, and **Watson Language Translation** for the latter; **Watson Language Identification** determines the uttered language.",
 	"kind": "composition",
 	"api": {
           "$schema": "http://json-schema.org/draft-07/schema#",
