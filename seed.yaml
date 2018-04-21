@@ -19,7 +19,7 @@ spec:
 apiVersion: seed.ibm.com/v1
 kind: CloudService
 metadata:
-  name: watson_language
+  name: language-translator
   prettyName: Watson Language Service
 spec:
   service: language_translator
