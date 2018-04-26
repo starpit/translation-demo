@@ -41,7 +41,7 @@ metadata:
   name: main
 spec:
   packages:
-  - name: default
+  - name: ${projectName}
     actions:
     - name: main
       runtime: app
